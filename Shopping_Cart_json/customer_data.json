@@ -1,0 +1,26 @@
+{
+    "customer_data":[
+        {
+            "cust_Member_ID": 1011,
+            "cust_name": "Ben",
+            "cust_address": "Houston, Tx"
+        },
+        {
+            "cust_Member_ID": 1021,
+            "cust_name": "Ram",
+            "cust_address": "Dallas, Tx"
+        },
+        {
+            "cust_Member_ID": 1012,
+            "cust_name": "Emma",
+            "cust_address": "Tampa, Fl"
+        },
+        {
+            "cust_Member_ID": 1013,
+            "cust_name": "Erica",
+            "cust_address": "Boston, Ma"
+        }
+    ]
+    
+    
+}

@@ -1,0 +1,83 @@
+{
+    "products": [
+        {
+            "product_id": 11,
+            "product_name": "Apple",
+            "unit_price": 1
+        },
+        {
+            "product_id": 12,
+            "product_name": "Orange",
+            "unit_price": 0.5
+        },
+        {
+            "product_id": 21,
+            "product_name": "Cereal",
+            "unit_price": 4
+        },
+        {
+            "product_id": 22,
+            "product_name": "Jam",
+            "unit_price": 2.5
+        },
+        {
+            "product_id": 23,
+            "product_name": "Bread",
+            "unit_price": 1.5
+        },
+        {
+            "product_id": 31,
+            "product_name": "Notebook",
+            "unit_price": 1
+        }
+    ],
+    "customer_cart": [
+        {
+            "customer_member_id": 1011,
+            "Items": [
+                {
+                    "product_name": "Apple",
+                    "Quantity": 0
+                },
+                {
+                    "product_name": "Orange",
+                    "Quantity": 2
+                },
+                {
+                    "product_name": "Bread",
+                    "Quantity": 2
+                }
+            ]
+        },
+        {
+            "customer_member_id": 1021,
+            "Items": [
+                {
+                    "product_name": "Apple",
+                    "Quantity": 4
+                },
+                {
+                    "product_name": "Notebook",
+                    "Quantity": 2
+                }
+            ]
+        },
+        {
+            "customer_member_id": 1013,
+            "Items": [
+                {
+                    "product_name": "Bread",
+                    "Quantity": 1
+                },
+                {
+                    "product_name": "Cereal",
+                    "Quantity": 2
+                },
+                {
+                    "product_name": "Jam",
+                    "Quantity": 2
+                }
+            ]
+        }
+    ]
+}

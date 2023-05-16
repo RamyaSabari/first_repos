@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type":"object",
+    "properties": {
+        "customer_data":{
+            "type":"array",
+            "items":[
+                {
+                    "type":"object",
+                    "properties": {
+                        "cust_Member_ID":{
+                            "type":"integer"
+                        },
+                        "cust_name":{
+                            "type":"string"
+                        },
+                        "cust_address":{
+                            "type":"string"
+                        }
+                    },
+                    "required":[
+                        "cust_Member_ID",
+                        "cust_name",
+                        "cust_address"
+                    ],
+                    "minItems":2
+                }
+                
+            ]
+        }
+    }
+}
